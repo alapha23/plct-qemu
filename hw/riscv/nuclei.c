@@ -232,7 +232,7 @@ static void nuclei_machine_init(MachineClass *mc)
     mc->desc = "RISC-V Nuclei RV-Star gd32vf103 Board";
     mc->init = nuclei_board_init;
     mc->max_cpus = 1;
-    mc->is_default = true;
+    mc->is_default = false;
     mc->default_cpu_type = NUCLEI_gd32vf103_CPU;
 }
 
