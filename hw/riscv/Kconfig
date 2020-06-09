@@ -42,6 +42,10 @@ config RISCV_VIRT
 
 config NUCLEI
     bool
+    select MSI_NONBROKEN
+
+config N200
+    bool
     select HART
-    select SIFIVE
+    select MSI_NONBROKEN
     select UNIMP

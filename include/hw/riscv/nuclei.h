@@ -45,7 +45,7 @@ enum {
 
 // TODO: Add riscv64 support
 #if defined(TARGET_RISCV32)
-#define NUCLEI_gd32vf103_CPU TYPE_RISCV_CPU_NUCLEI_rvstar
+#define NUCLEI_CPU TYPE_RISCV_CPU_NUCLEI_N200
 #elif defined(TARGET_RISCV64)
 #endif
 
